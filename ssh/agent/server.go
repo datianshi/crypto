@@ -12,7 +12,7 @@ import (
 	"log"
 	"math/big"
 
-	"golang.org/x/crypto/ssh"
+	"gopkg.in/datianshi/crypto.v1/ssh"
 )
 
 // Server wraps an Agent and uses it to implement the agent side of

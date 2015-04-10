@@ -12,8 +12,8 @@ import (
 	"net"
 	"net/http"
 
-	"golang.org/x/crypto/ssh"
-	"golang.org/x/crypto/ssh/terminal"
+	"gopkg.in/datianshi/crypto.v1/ssh"
+	"gopkg.in/datianshi/crypto.v1/ssh/terminal"
 )
 
 func ExampleNewServerConn() {

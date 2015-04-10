@@ -10,7 +10,7 @@ import (
 	"crypto/rand"
 	"testing"
 
-	"golang.org/x/crypto/ssh"
+	"gopkg.in/datianshi/crypto.v1/ssh"
 )
 
 func TestCertLogin(t *testing.T) {

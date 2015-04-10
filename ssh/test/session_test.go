@@ -15,7 +15,7 @@ import (
 	"strings"
 	"testing"
 
-	"golang.org/x/crypto/ssh"
+	"gopkg.in/datianshi/crypto.v1/ssh"
 )
 
 func TestRunCommandSuccess(t *testing.T) {

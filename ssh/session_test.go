@@ -14,7 +14,7 @@ import (
 	"math/rand"
 	"testing"
 
-	"golang.org/x/crypto/ssh/terminal"
+	"gopkg.in/datianshi/crypto.v1/ssh/terminal"
 )
 
 type serverType func(Channel, <-chan *Request, *testing.T)
